@@ -1,0 +1,35 @@
+.post_container {
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.post_container h1 {
+  margin: 0;
+}
+
+.post_container button {
+  height: 50px;
+}
+
+.post_content {
+  border-right: 1px solid black;
+  padding: 20px;
+}
+
+.post__btns {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-left: 10px;
+}
+
+.post__btns .remove {
+  background: rgb(236, 184, 201);
+}
+.post__btns .open {
+  background: rgb(171, 244, 182);
+}
